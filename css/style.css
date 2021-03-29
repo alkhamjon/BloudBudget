@@ -1,0 +1,172 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+body{
+    background: #FAFAFA;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    margin: 0;
+}
+/* =========================================================================================================
+                                        Section Cloud Bugdet
+========================================================================================================= */
+.cloud-bugdet *{
+    z-index: 999;
+    position: relative;
+}
+.cloud-bugdet{
+    background-image: url(../img/bg-CloudBudget.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 59px;
+}
+.cloud-bugdet::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+}
+.cloud-bugdet__inner{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+}
+.logo__title{
+    margin-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu{
+    display: flex;
+}
+.menu__list{
+    display: flex;
+    list-style: none;
+    margin: 0 50px;
+    letter-spacing: 3px;
+}
+.menu__list-item{
+    margin-left: 20px;
+}
+.menu__select--language{
+    display: flex;
+    font-style: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.language__eng{
+    display: flex;
+    align-items: center;
+}
+.language__eng-logo{
+    width: 32px;
+    height: 32px;
+    margin-top: -5px;
+    margin-right: 13px;
+}
+.language__eng--title{
+    margin-right: 13px;
+}
+.menu__select--arrow{
+    margin-top: 5px;
+    margin-right: 13px;
+}
+.btn-login{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.btn-login__link{
+    text-transform: uppercase;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 12px 28px;
+}
+.cloud-budget__header{
+    padding-top: 200px;
+}
+.cloud-budget__title{
+    text-transform: uppercase;
+    font-size: 72px;
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+.cloud-budget__text{
+    padding: 39px 50px;
+    font-size: 24px;
+    line-height: 150%;
+    width: 602px;
+    letter-spacing: 2px;
+    margin-left: 300px;
+    color: #fff;
+}
+.btn-singup{
+    background: #FFFFFF;
+    padding: 16px 53px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    display: inline-block;
+}
+/* =========================================================================================================
+                                        Management
+========================================================================================================= */
+.management{
+    padding: 94px 0 94px 0;
+}
+.management__inner{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.management__header{
+    width: 445px;
+}
+.management__title{
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.management__text{
+    font-weight: normal;
+    line-height: 140%;
+}
+.management__text--link{
+    color: #ED4C5C;
+    display: block;
+    margin-top: 20px;
+}
+.management__video{
+    display: flex;
+    align-items: center;
+}
+.management__video--img{
+    position: relative;
+    left: 0;
+}
+.play-video__btn{
+    position: absolute;
+    z-index: 1;
+    right: 608px;
+}
