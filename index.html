@@ -21,6 +21,7 @@
                         </a>
                         <a class="logo__title" href="#">CloudBudget</a>
                     </div>
+                    <button class="menu__btn"></button>
                     <nav class="menu">
                         <ul class="menu__list">
                             <li class="menu__list-item">
@@ -44,12 +45,12 @@
                                 <img class="language__eng-logo"
                                     src="img/logo-eng.png" alt="">
                                 <a class="language__eng--title" href="#">en</a>
+                                <a class="menu__select--arrow" href="#">
+                                    <img class="select--arrow__img"
+                                        src="img/arrow.svg"
+                                        alt="">
+                                </a>
                             </div>
-                            <a class="menu__select--arrow" href="#">
-                                <img class="select--arrow__img"
-                                    src="img/arrow.svg"
-                                    alt="">
-                            </a>
                         </div>
                         <div class="btn-login">
                             <a class="btn-login__link" href="#">Login</a>
@@ -101,34 +102,35 @@
                 <div class="features__main--title">Features</div>
                 <div class="features__inner">
                     <div class="features__support--card">
-                        <img class="support-card__img"
+                        <img class="support-card__img features__img"
                             src="img/support-cards.jpg" alt="">
                         <div class="features__img--box">
-                            <h3 class="support-card__title">Supports All
+                            <h3 class="box__title">Supports All
                                 Currencies and Cards</h3>
-                            <p class="support-card__text">We support all popular
+                            <p class="box__text">We support all popular
                                 currencies and is fully customizable to add</p>
                             <a class="features__link" href="#">Read More</a>
                         </div>
                     </div>
                     <div class="features__expenses">
-                        <img class="expenses__img" src="img/expenses.jpg"
+                        <img class="expenses__img features__img"
+                            src="img/expenses.jpg"
                             alt="">
                         <div class="features__img--box">
-                            <h3 class="expenses__title">Manage your expenses on
+                            <h3 class="box__title">Manage your expenses on
                                 the go</h3>
-                            <p class="expenses__text">You can access your
+                            <p class="box__text">You can access your
                                 account from anywhere in the world on any device</p>
                             <a class="features__link" href="#">Read More</a>
                         </div>
                     </div>
                     <div class="features__management-software">
-                        <img class="management-software__img"
+                        <img class="features__img management-software__img"
                             src="img/management-software.jpg" alt="">
                         <div class="features__img--box">
-                            <h3 class="management-software__title">Cloud Budget
+                            <h3 class="box__title">Cloud Budget
                                 Management Software</h3>
-                            <p class="management-software__text">Our software is
+                            <p class="box__text">Our software is
                                 made so you can access and manage your budget</p>
                             <a class="features__link" href="#">Read
                                 More</a>
@@ -141,63 +143,61 @@
             <div class="container">
                 <div class="technology__main--title">Technology</div>
                 <div class="technology__inner">
-                    <ol class="technology__types">
-                        <li class="types__item storage">
-                            <div class="technology__img-inner">
+                    <div class="technology__types">
+                        <div class="types__left">
+                            <div class="types__item storage">
+                                <div class="types__number">01</div>
                                 <img class="storage__logo types__logo"
-                                src="img/storage-logo.png" alt="">
-                            </div>
-                            <div class="technology__text-inner">
+                                    src="img/storage-logo.png" alt="">
                                 <h4 class="types__item--title cloud-title">Cloud
                                     Storage</h4>
-                                <p class="types__item--text cloud-text">Access your
-                                    account
-                                    from anywhere in the world on any device</p>
+                                <p class="types__item--text cloud-text">Access
+                                    your
+                                    account from anywhere in the world on any
+                                    device
+                                </p>
                             </div>
-                        </li>
-                        <li class="types__item secure">
-                            <div class="technology__img-inner">
-                            <img class="secure__logo types__logo"
-                                src="img/secure-logo.png"
-                                alt="">
-                            </div>
-                            <div class="technology__img-inner">
+                            <div class="types__item secure">
+                                <div class="types__number">02</div>
+                                <img class="secure__logo types__logo"
+                                    src="img/secure-logo.png"
+                                    alt="">
                                 <h4 class="types__item--title secure-title">Secure</h4>
-                                <p class="types__item--text secure-text">All your
-                                    information is
-                                    stored on secure cloud servers</p>
+                                <p class="types__item--text secure-text">All
+                                    your
+                                    information is stored on secure cloud
+                                    servers
+                                </p>
                             </div>
-                        </li>
-                        <li class="types__item pdf">
-                            <img class="pdf__logo types__logo"
-                                src="img/pdf-logo.png"
-                                alt="">
-                            <div class="technology__img-inner">
+                        </div>
+                        <div class="types__right">
+                            <div class="types__item pdf">
+                                <div class="types__number">03</div>
+                                <img class="pdf__logo types__logo"
+                                    src="img/pdf-logo.png" alt="">
                                 <h4 class="types__item--title pdf-title">PDF
                                     Download</h4>
                                 <p class="types__item--text pdf-text">Download
-                                    any
-                                    of your
-                                    reports in PDF format</p>
+                                    any of your reports in PDF format
+                                </p>
                             </div>
-                        </li>
-                        <li class="types__item csv">
-                            <img class="csv__logo types__logo"
-                                src="img/csv-logo.png"
-                                alt="">
-                            <div class="technology__img-inner">
+                            <div class="types__item csv">
+                                <div class="types__number">04</div>
+                                <img class="csv__logo types__logo"
+                                    src="img/csv-logo.png"
+                                    alt="">
                                 <h4 class="types__item--title csv-title">CSV
                                     Download</h4>
                                 <p class="types__item--text csv-text">All your
                                     information is
                                     stored on secure cloud servers</p>
                             </div>
-                        </li>
-                    </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="saving-money">
+         <section class="saving-money">
             <div class="container">
                 <div class="saving-money__inner">
                     <div class="saving-money__header">
@@ -280,7 +280,7 @@
                 </div>
             </div>
         </section>
-        <section class="footer">
+        <footer class="footer">
             <div class="container">
                 <nav class="footer__menu">
                     <ul class="footer__menu--list">
@@ -308,11 +308,11 @@
                                 844-721-7120</a>
                             <div class="footer__social--icons">
                                 <a class="footer__social--icon" href="#">
-                                    <img class="social--icon__img"
+                                    <img class="social--icon__img facebook"
                                         src="img/facebook.svg" alt="">
                                 </a>
                                 <a class="footer__social--icon" href="#">
-                                    <img class="social--icon__img"
+                                    <img class="social--icon__img linkedin"
                                         src="img/linkedin.svg" alt="">
                                 </a>
                                 <a class="footer__social--icon" href="#">
@@ -330,10 +330,7 @@
                 </nav>
                 <p class="footer__copy">Copyright 2018 CloudBudget</p>
             </div>
-        </section>
-
-
-
+        </footer>
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="js/jquery.fancybox.min.js"></script>
