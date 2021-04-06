@@ -828,9 +828,11 @@ p {
     width: 250px;
     height: 180px;
   }
-  .contact__header,
-  .contact__form{
+  .contact__header{
     width: 220px;
+  }
+  .contact__form{
+    width: 250px;
   }
   .footer__support--cards{
     width: 100%;
